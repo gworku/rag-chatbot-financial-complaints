@@ -1,0 +1,29 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Editor-specific files
+.vscode/                 # VS Code settings
+.idea/                   # PyCharm settings
+
+# Operating System generated files
+.DS_Store                # macOS specific
+Thumbs.db                # Windows specific
+
+# Data - large or sensitive files to ignore
+data/raw_complaints.csv  # Optionally ignore raw data if too large for Git
+data/*.zip
+data/*.gz
+data/*.csv
+
+# Vector Store - typically large binary fil
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

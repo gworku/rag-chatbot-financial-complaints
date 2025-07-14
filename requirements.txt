@@ -1,0 +1,40 @@
+# Core Data Handling & Numerical Operations
+pandas>=2.0.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Natural Language Processing (NLP)
+nltk>=3.6.0                # For text cleaning, stopwords, lemmatization
+regex>=2023.0.0            # For more robust regular expression operations
+
+# Embedding Models
+sentence-transformers>=2.2.0 # For 'all-MiniLM-L6-v2' and other SBERT models
+transformers>=4.20.0       # Hugging Face Transformers for LLM (if using local models)
+torch>=1.10.0              # PyTorch, a dependency for transformers and sentence-transformers
+
+# Vector Store (Choose ONE: FAISS or ChromaDB)
+# For FAISS (recommended for simplicity in this project)
+faiss-cpu>=1.7.0
+
+# OR for ChromaDB (if you prefer a more feature-rich local vector DB)
+# chromadb>=0.4.0
+
+# RAG Framework (LangChain for orchestrating RAG components)
+langchain>=0.2.0           # Core LangChain library
+langchain-community>=0.2.0 # For various integrations, including NLTK
+langchain-core>=0.2.0      # Base abstractions for LangChain
+
+# LLM Integration (if using local models via HuggingFacePipeline)
+accelerate>=0.20.0         # For optimizing model loading and inference (often for larger models)
+bitsandbytes>=0.40.0       # For 8-bit quantization (if running larger models with less VRAM)
+
+# User Interface (Choose ONE: Gradio or Streamlit)
+gradio>=4.0                # For building the web interface
+
+# OR for Streamlit
+# streamlit>=1.30.0
+
+# Optional: For advanced parsing (e.g., if dealing with PDFs later)
+# pypdf>=3.0.0
