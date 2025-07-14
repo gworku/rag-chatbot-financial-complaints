@@ -1,11 +1,11 @@
-# CrediTrust Complaint-Answering RAG Chatbot
+# rag-chabot-finacil-complaints
 
 ## Project Overview
 This project develops an internal AI tool for CrediTrust Financial, leveraging Retrieval-Augmented Generation (RAG) to provide synthesized, evidence-backed answers to natural language questions about customer complaints from the CFPB database.
 
 ## Project Structure
 ```
-creditrust-rag/
+rag-chatbot-financial-complaints/
 ├── data/                  # Stores raw and processed datasets
 ├── notebooks/             # Jupyter notebooks for experimentation and detailed steps
 ├── src/                   # Python scripts for reusable functions and pipeline components
@@ -19,7 +19,7 @@ creditrust-rag/
 ## Setup and Installation
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/gworku/rag-chatbot-financial-complaints.git
     cd creditrust-rag
     ```
 2.  **Create and activate a virtual environment:**
